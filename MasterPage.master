@@ -1,0 +1,86 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="Content/style.css" rel="stylesheet" type="text/css"/>
+
+    <style>
+       
+        .searchtxt{
+            width:305px;
+          display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 10px 20px;
+  border: 1px solid #b7b7b7;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  font: normal 16px/normal "Times New Roman", Times, serif;
+  text-overflow: clip;
+  background: rgba(252,252,252,1);
+  -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+  box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+  text-shadow: 1px 1px 0 rgba(255,255,255,0.66) 
+}
+        .image{
+                margin-left: 40px;
+                width: 208px;
+                height: 119px;
+}
+        .container2{
+        height: 30%;
+    background-color: #c4632e;
+}
+        
+    </style>
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div style=" width:70%; float:none;margin-left: 15%;margin-right: 15%;">
+    <form id="form1" runat="server">
+    <div>
+        <div class="header" style="background:white;">
+            <div class="container2">
+                <div style="float:right;padding-top:2px">
+                  <nav><ul><li><a href="Home.aspx">Home</a></li><li><a href="Recipes.aspx">Recipes</a></li><li><a href="AddRecipe.aspx">Add Recipe</a></li><li><a href="Search.aspx">Search</a></li><li><a href="TopRated.aspx">Top Rated</a></li><li><a href="AboutUs.aspx">About</a></li></ul></nav></div>
+                <a href="Home.aspx">
+            <asp:Image ID="logo" runat="server" CssClass="image" ImageUrl="Content/Images/recipelogo.jpg" /> </a>
+              
+                </div>
+            <div class="search">
+            <asp:TextBox ID="searchtxt" runat="server" CssClass="searchtxt"></asp:TextBox><asp:Button ID="searchbtn" runat="server" Text="Search" CssClass="searchbtn"/>
+
+            </div>
+            </div>
+        <div class="banner">
+              <div class="login"><a href="SetupPage.aspx">Setup Page </a></div>
+            
+        </div>
+        <asp:Image ID="Image1" runat="server" />
+        </div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <div class="footer">
+            <div class="holder">
+						<ul style="margin-top: 20px;">
+	<li class="holder"><a href="">Disclaimer</a></li>
+	<li><a href="">Privacy Policy</a></li>
+	<li><a href="">brinderjit30@gmail.com</a></li>
+	<li><a href="AboutUs.aspx">About Us</a></li>
+	<li><a href="">Feedback</a></li>
+	<li><a href="">Advertise</a></li>
+</ul>
+<p>Copyright Recipe Book Technologies, 2016. All rights reserved</p>	
+					</div>
+        </div>
+    
+    </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,171 @@
+﻿body {
+}
+
+.label{
+        width: 173px!important;
+    font-size: 20px;
+}
+.button{
+     display: inline-block;
+  box-sizing: content-box;
+  cursor: pointer;
+  padding: 10px 20px;
+  border: 1px solid #c4622f;
+  border-radius: 3px;
+  font: normal 16px/normal "Times New Roman", Times, serif;
+  color: rgba(255,255,255,0.9);
+  background: #c4622f;
+  -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) ;
+  box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) ;
+  text-shadow: -1px -1px 0 rgba(15,73,168,0.66) ;
+      margin-left: 44px;
+    margin-top: 45px;
+
+}
+.validation{
+    color: red;
+    padding-left: 8px;
+}
+.buttonadd{
+     display: inline-block;
+  box-sizing: content-box;
+  cursor: pointer;
+  
+  border: 1px solid #c4622f;
+  border-radius: 3px;
+  font: normal 16px/normal "Times New Roman", Times, serif;
+  color: rgba(255,255,255,0.9);
+  background: #c4622f;
+  -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) ;
+  box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) ;
+  text-shadow: -1px -1px 0 rgba(15,73,168,0.66) ;
+  
+
+}
+.datagrid table
+ { 
+    border-collapse: collapse; text-align: left; width: 100%;
+
+} 
+.datagrid {
+    font: normal 12px/150% Arial, Helvetica, sans-serif;
+     background: #fff;
+      overflow: hidden; 
+      border: 1px solid #006699; 
+      -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+        border-radius: 3px;
+
+}
+.datagrid table td, .datagrid table th 
+{ 
+    padding: 3px 10px; 
+
+}
+.thList 
+{
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F) );
+    background:-moz-linear-gradient( center top, #006699 5%, #00557F 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');
+    background-color:#006699; 
+    color:#FFFFFF; 
+    font-size: 15px;
+     font-weight: bold;
+      border-left: 1px solid #0070A8; 
+
+}
+ .datagrid table thead th:first-child { 
+     border: none;
+
+ }.tdList {
+       color: #00557F; 
+       border-left: 1px solid #E1EEF4;
+       font-size: 12px;
+       font-weight: normal; 
+
+  }
+  .datagrid table  .alt td { 
+      background: #E1EEf4; color: #00557F; 
+
+  }
+  .datagrid table  td:first-child { 
+      border-left: none; 
+
+  }
+  .datagrid table tr:last-child td { 
+      border-bottom: none; 
+
+  }
+  .datagrid table tfoot td div { 
+      border-top: 1px solid #006699;background: #E1EEf4;
+
+  } 
+  .datagrid table tfoot td { 
+      padding: 0; font-size: 12px
+
+  }
+   .datagrid table tfoot td div{ 
+       padding: 2px; 
+
+   }
+   .datagrid table tfoot td ul {
+        margin: 0; 
+        padding:0; 
+        list-style: none;
+         text-align: right; 
+         
+   }
+   .datagrid table tfoot  li {
+        display: inline; 
+
+   }
+   .datagrid table tfoot li a {
+        text-decoration: none;
+         display: inline-block; 
+          padding: 2px 8px;
+           margin: 1px;
+           color: #FFFFFF;
+           border: 1px solid #006699;
+           -webkit-border-radius: 3px; 
+           -moz-border-radius: 3px; 
+           border-radius: 3px;
+            background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F) );
+            background:-moz-linear-gradient( center top, #006699 5%, #00557F 100% );
+            filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');
+            background-color:#006699; }
+   .datagrid table tfoot ul.active, .datagrid table tfoot ul a:hover { 
+       text-decoration: none;
+       border-color: #00557F;
+        color: #FFFFFF; 
+        background: none; 
+        background-color:#006699;}
+   div.dhtmlx_window_active, div.dhx_modal_cover_dv {
+        position: fixed !important; 
+
+   }
+.textres{
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 9px 6px ;
+  margin-top:12px;
+  border: 1px solid #b7b7b7;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  font: normal 16px/normal "Times New Roman", Times, serif;
+  
+  text-overflow: clip;
+  background: rgba(252,252,252,1);
+  -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+  box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+  text-shadow: 1px 1px 0 rgba(255,255,255,0.66) 
+
+}
+.container1{
+      margin-top: 20px;
+    width: 99%;
+    padding: 4px 6px 6px;
+    background-color: white;
+        box-shadow: 0px 0px 4px rgba(0,0,0,0.1);
+}

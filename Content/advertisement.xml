@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>Images/image.png</ImageUrl>
+    <AlternateText>Recipe</AlternateText>
+
+  </Ad>
+
+  <Ad>
+    <ImageUrl>Images/waffle-bacon-eggs-recipe.jpg</ImageUrl>
+    <AlternateText>Recipe</AlternateText>
+
+  </Ad>
+
+  <Ad>
+    <ImageUrl>Images/alfredo-pasta-header.jpg</ImageUrl>
+    <AlternateText>Recipe</AlternateText>
+
+  </Ad>
+
+  <Ad>
+    <ImageUrl>Images/recipe-06.jpg</ImageUrl>
+    <AlternateText>Recipe</AlternateText>
+
+ 
+  </Ad>
+  <Ad>
+    <ImageUrl>Images/SoupSalad.jpg</ImageUrl>
+    <AlternateText>Recipe</AlternateText>
+   
+
+  </Ad>
+</Advertisements>

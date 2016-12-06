@@ -1,0 +1,30 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+public partial class IngdntListWebUserControl : System.Web.UI.UserControl
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        public string LblInName
+        {
+            set { lblInName.Text = value; }
+        }
+        public string TxtInName
+        {
+            get { return txtInquantity.Text; }
+        }
+        public string LblInQuantity
+        {
+            set { lblInName.Text = value; }
+        }
+        public string TxtInQuantity
+        {
+            get { return txtInquantity.Text; }
+        }
+
+    }
+}
